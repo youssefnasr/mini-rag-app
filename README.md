@@ -18,3 +18,18 @@ $ conda create -n ENV-NAME python=3.8
 $conda activate ENV-NAME
 '''
 
+## Installation
+### Install the required packages
+'''
+bash
+$ pip install -r requirements.txt
+'''
+
+### Setup the enviroment variables
+
+'''
+$cp .env.example .env
+
+'''
+set your environment variable in the '.env' file. like
+"OPEN_API_KEY"value
